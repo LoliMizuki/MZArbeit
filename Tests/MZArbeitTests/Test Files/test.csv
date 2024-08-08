@@ -1,0 +1,16 @@
+aaaa,bbbb,cccc
+case: simple,Flare,Mio
+case: commas-in-text+one-line,"Flare,is,,,,very, very CUTE",ccgg
+case: comma-at-tail+one-line,"Flare is very CUTE,",ccgg
+case: comma-at-header+one-line,",Flare is too CUTE",
+case: multi-line,"Do you want fuck Flare?
+Yes! Yes! Yes!
+She is Beauty and Cute",xxx
+case: quote (inner),"Do you ""know"" de way",yyy
+case: quote (inner),"Do you ""支皮戮"" de way","yyy,xxxx"
+"""case: quote (wrap) - line#1,
+case: quote (wrap) - line#2""","""支""皮""戮""","""zAAAAzcvy"""
+aaaa,,cccc
+123,"""aaa,bbb""","""aaa, bbbb""
+cc,cc ""xxxx"""
+"aaa,bbb,ccc",,
